@@ -40,7 +40,8 @@ class Song
       else
         artist_list << artist 
       end
+    end
     artist_list
     end
-  end
+ 
 end
