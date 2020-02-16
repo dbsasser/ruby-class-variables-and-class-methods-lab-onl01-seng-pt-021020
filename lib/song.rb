@@ -6,6 +6,7 @@ class Song
     @artist = artist
     @genre = genre
     @@count += 1 
+    @@artists << artist
     
     
   end 
@@ -30,4 +31,5 @@ class Song
     genre_list
   end
   
+  def artists 
 end
