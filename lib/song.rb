@@ -50,6 +50,9 @@ class Song
         if genre_hash.key?(genre)
           genre_hash[genre] += 1
         else
-          
+          genre_hash[genre] = 1 
+        end 
+      end
+      genre_hash
  
 end
