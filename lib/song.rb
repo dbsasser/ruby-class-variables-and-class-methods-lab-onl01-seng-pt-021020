@@ -26,7 +26,7 @@ class Song
       else 
         genre_list << genre
       end
-      
+    end  
     genre_list
   end
   
