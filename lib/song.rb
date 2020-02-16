@@ -9,9 +9,14 @@ class Song
   end 
   
   @@count = 0
+  @@genres = []
   
   def count 
     @@count
+  end
+  
+  def genres 
+    @@genres
   end
   
 end
