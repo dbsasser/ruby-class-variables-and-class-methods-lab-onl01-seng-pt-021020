@@ -20,7 +20,7 @@ class Song
     @@count
   end
   
-  def genres
+  def self.genres
     genre_list = []
     @@genres.each do |genre|
       if genre_list.include?(genre)
@@ -32,7 +32,7 @@ class Song
     genre_list
   end
   
-  def artists 
+  def self.artists 
     artist_list = []
     @@artists.each do |artist|
       if artist_list.include?(genre)
