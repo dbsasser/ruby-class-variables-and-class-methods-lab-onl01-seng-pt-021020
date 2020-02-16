@@ -35,7 +35,7 @@ class Song
   def self.artists 
     artist_list = []
     @@artists.each do |artist|
-      if artist_list.include?(genre)
+      if artist_list.include?(artist)
         
       else
         artist_list << artist 
