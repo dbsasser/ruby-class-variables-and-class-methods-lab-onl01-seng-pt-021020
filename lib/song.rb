@@ -33,6 +33,13 @@ class Song
   end
   
   def artists 
-    
+    artist_list = []
+    @@artists.each do |artist|
+      if artist_list.include?(genre)
+        
+      else
+        artist_list << artist 
+      end
+    end
   end
 end
